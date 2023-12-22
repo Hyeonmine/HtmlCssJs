@@ -29,6 +29,23 @@ nav{
     height: 100px;
     background-color: green;
 }
+#contents {
+    width: 100%;
+    height: 300px;
+}
+#tabMenu {
+    float: left;
+    width: 600px;
+    height: 100%;
+    background-color: violet;
+}
+#links {
+    float: right;
+    width: 600px;
+    height: 100%;
+    background-color: skyblue;
+}
+
 #slideShow {
     clear: both;
     width: 100%;
@@ -72,22 +89,7 @@ button:hover {
 button:focus {
     outline:0;
 }
-#contents {
-    width: 100%;
-    height: 300px;
-}
-#tabMenu {
-    float: left;
-    width: 600px;
-    height: 100%;
-    background-color: violet;
-}
-#links {
-    float: right;
-    width: 600px;
-    height: 100%;
-    background-color: skyblue;
-}
+
 footer{
     width: 100%;
     height: 100px;
